@@ -1,8 +1,20 @@
-age = int(input("Enter your age:"))
-if age >= 18:
-     print("you can vote")
-else:
-    print("you can not vote")
+# age = int(input("Enter your age:"))
+# if age >= 18:
+#      print("you can vote")
+# else:
+#     print("you can not vote")
+
+
+car = int(input("enter the car limit"))
+speed = 1200 
+if car >= 1200:
+    print("car covered distance")
+    if car >= 1000:
+      print("car speed")
+    else:
+      print("limit of car")
+        
+    
 
 
 
